@@ -49,8 +49,6 @@ under the License.
 
     <!-- android -->
     <platform name="android">
-        <dependency id="org.apache.cordova.inappbrowser"/>
-
         <source-file src="src/android/AppRate.java" target-dir="src/org/pushandplay/cordova/apprate"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
@@ -62,7 +60,6 @@ under the License.
 
     <!-- ios -->
     <platform name="ios">
-        <dependency id="org.apache.cordova.inappbrowser"/>
         <config-file target="config.xml" parent="/*">
             <feature name="AppRate">
                 <param name="ios-package" value="CDVAppRate"/>
