@@ -62,6 +62,7 @@ under the License.
 
     <!-- ios -->
     <platform name="ios">
+        <dependency id="org.apache.cordova.inappbrowser"/>
         <config-file target="config.xml" parent="/*">
             <feature name="AppRate">
                 <param name="ios-package" value="CDVAppRate"/>
